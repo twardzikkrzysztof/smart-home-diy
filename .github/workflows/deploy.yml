@@ -26,3 +26,6 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./public
           cname: diy.kabinet.com.pl
+          
+      - name: Show contents of public folder
+          run: ls -la public
