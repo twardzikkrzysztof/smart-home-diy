@@ -1,21 +1,28 @@
 baseURL = "https://diy.kabinet.com.pl/"
-languageCode = "en-us"
+languageCode = "pl-pl"
 title = "Smart Home DIY"
 theme = "PaperMod"
+defaultContentLanguage = "pl"
+enableRobotsTXT = true
 paginate = 10
 
 [params]
-  author = "twardzikkrzysztof"
+  author = "Krzysztof"
+  description = "Dokumentacja i projekty Smart Home DIY"
   ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  hideSummary = false
+  ShowShareButtons = true
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    identifier = "posts"
+    name = "Wpisy"
+    url = "/posts/"
     weight = 1
 
-  [[menu.main]]
-    name = "Posts"
-    url = "/content/posts/"
-    weight = 2
+[markup]
+  [markup.highlight]
+    noClasses = false
