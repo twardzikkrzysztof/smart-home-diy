@@ -15,6 +15,10 @@ paginate = 10
   ShowCodeCopyButtons = true
   hideSummary = false
   ShowShareButtons = true
+  homeInfoParams = { Title = "Smart Home DIY", Content = "Witaj na moim blogu poświęconym automatyzacji domu z Home Assistant." }
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [menu]
   [[menu.main]]
