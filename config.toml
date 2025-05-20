@@ -17,5 +17,5 @@ paginate = 10
 
   [[menu.main]]
     name = "Posts"
-    url = "/posts/"
+    url = "/content/posts/"
     weight = 2
