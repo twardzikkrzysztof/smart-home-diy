@@ -4,7 +4,6 @@ title = "Smart Home DIY"
 theme = "PaperMod"
 defaultContentLanguage = "pl"
 enableRobotsTXT = true
-paginate = 10
 
 [params]
   author = "Krzysztof"
